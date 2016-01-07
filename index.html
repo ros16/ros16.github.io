@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<title>RoS '16</title>
+<meta charset='UTF-8'>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="fontawesome/css/font-awesome.min.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+<body>
+<nav class="navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="images/k16.png" style="width:250px !important;
+  height:auto; margin-top:-20px"/></a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="navbar-item"><a href="#" class="navelem" id="home">HOME</a></li>
+        <li class="navbar-item"><a href="#" class="navelem" id="rules">RULES</a></li>
+        <li class="navbar-item"><a href="#" class="navelem" id="l">LEADERBOARD</a></li>
+        <li class="navbar-item"><a href="#" class="navelem" id="contact">CONTACT</a></li>
+        <li class="navbar-item"><a href="#" class="navelem" id="login">LOGIN</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+<!--qa modal-->
+ <div class='col-md-12'>
+    <div id="home-box">
+      <h1 class="title">QUESTION</h1>
+      <div class="content">
+	<div class="col-md-3">
+        	<img src="images/bs.png" class="ros-pic"/>
+	</div>	
+	<div class="col-md-3">
+        	<img src="images/bs.png" class="ros-pic"/>
+	</div>	
+	<div class="col-md-3">
+        	<img src="images/bs.png" class="ros-pic"/>
+	</div>	
+	<div class="col-md-3">
+        	<img src="images/bs.png" class="ros-pic"/>
+	</div>	
+        <p>Here's the question.</p>
+        <input type="text" id="ans"/>
+      </div>
+    </div>
+</div>
+
+<!--rules modal-->
+  <div class='col-md-8'>
+    <div class="box" id="rules-box">
+      <h1 class="title">RULES</h1>
+      <ul class="content">
+        <li><i class="fa fa-bell"></i> Riddles of the Sphinx is an individual online event.You should posses a   computing device with a fair internet connection to join the hunt.</li>
+        <li><i class="fa fa-bell"></i> The event consists of a series of levels with visuals and texts which are   riddles and you should solve them to advance to the next level.
+        </li>
+        <li><i class="fa fa-bell"></i> This is a non-technical event and there is absolutely no preparation or   previous experience needed.
+        </li>
+        <li><i class="fa fa-bell"></i> Clues will be given on timely basis by the organizers.
+        </li>
+        <li><i class="fa fa-bell"></i> Any attempt to disclose the answers in public will lead to immediate     disqualification of the participants.
+        </li>
+        <li><i class="fa fa-bell"></i> The organisers' decisions will be final and binding.</li>
+      </ul>
+    </div>
+</div>
+<!--leaderboard modal-->
+<div class='col-md-8'>
+  <table class="box" id="l-box">
+    <tr><th>RANK</th>  
+    <th>k! ID</th>  
+    <th>NAME</th>  
+    <th>LEVEL</th></tr>
+    <tr><td>1</td>
+        <td>K30BFA4</td>
+        <td>Aishvary Pratap</td>
+        <td>completed</td>
+    </tr>
+    <tr><td>2</td>
+        <td>K30BFA4</td>
+        <td>Aishvary Pratap</td>
+        <td>completed</td>
+    </tr>
+    <tr><td>3</td>
+        <td>K30BFA4</td>
+        <td>Aishvary Pratap</td>
+        <td>completed</td>
+    </tr>
+    <tr><td>4</td>
+        <td>K30BFA4</td>
+        <td>Aishvary Pratap</td>
+        <td>completed</td>
+    </tr>
+    <tr><td>5</td>
+        <td>K30BFA4</td>
+        <td>Aishvary Pratap</td>
+        <td>completed</td>
+    </tr>
+    <tr><td>6</td>
+        <td>K30BFA4</td>
+        <td>Aishvary Pratap</td>
+        <td>completed</td>
+    </tr> 
+  </table>
+</div>
+<!--contact-box-->
+<div class='col-md-8'>
+  <div class="box" id="contact-box">
+    <div class="content">
+  <p>Karthikeyan M - +91 80563 61207</p>
+  <p>Aadhavan Sadasivam - +91 77088 05455</p>
+  <p>Arunkumar - +91 95978 29154</p>
+
+  <p>email : ros@kurukshetra.org.in </p>
+  </div>
+  </div>
+</div>
+</div>
+
+<!--footer-->
+  <div class="footer col-md-12 col-xs-12 paddingReset clearfix">
+    <div class="col-md-4 col-xs-6">
+      <h4><b>CEG Tech Forum &copy; 2016. All Rights Reserved.</b></h4>
+    </div>
+    <div class="col-md-3 col-md-push-1 col-xs-6">
+      <a href="https://www.facebook.com/kurukshetra.org.in" target="_blank">
+        <i class="fa fa-facebook "></i>
+      </a>
+      <a href="https://twitter.com/kurukshetra_ceg" target="_blank">
+        <i class="fa fa-twitter "></i>
+      </a>
+      <a href="https://youtube.com/kurukshetramedia" target="_blank">
+        <i class="fa fa-youtube "></i>
+      </a>
+    </div>
+</div>
+</body>
+
+<script>
+$(document).ready(function(){
+//init home box
+setTimeout(function(){$("#home-box").addClass("popOut");},500);//popOut later
+
+anims = ['popOut','popIn'];
+
+animQuestion();
+
+function animQuestion()
+{
+//alert("aq");
+$("#home-box").fadeIn(100).addClass("popOut");//popOut later
+$("#home-box").find(".ros-pic").each(function(i){
+var elem = $(this);
+setTimeout(function(){$(elem).addClass("popOut");},i*400+500);
+});
+}
+$(".navelem").click(function(){
+  
+  $(".box").animate({'margin-top':"-1500px"},0,'easeOutSine')
+  $("#home-box").fadeOut(0).removeClass("popOut");
+  //$(".ros-pic").removeClass("popOut");
+  var idd = "#"+$(this).attr("id")+"-box";
+  if(idd == '#home-box')
+	animQuestion();
+  else
+	$(idd).animate({'margin-left':"25%",'margin-top':"10px"},10,'easeInSine');
+});
+});
+
+</script>
