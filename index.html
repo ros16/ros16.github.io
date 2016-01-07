@@ -162,14 +162,14 @@ setTimeout(function(){$(elem).addClass("popOut");},i*400+500);
 }
 $(".navelem").click(function(){
   
-  $(".box").animate({'margin-top':"-1500px"},0,'easeOutSine')
+  $(".box").animate({'margin-left':"-1500px"},0,'easeOutSine')
   $("#home-box").fadeOut(0).removeClass("popOut");
   //$(".ros-pic").removeClass("popOut");
   var idd = "#"+$(this).attr("id")+"-box";
   if(idd == '#home-box')
 	animQuestion();
   else
-	$(idd).animate({'margin-left':"25%",'margin-top':"10px"},10,'easeInSine');
+	$(idd).animate({'margin-left':"25%"},10,'easeInSine');
 });
 });
 

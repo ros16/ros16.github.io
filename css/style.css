@@ -13,6 +13,9 @@ html,body{
 	-webkit-zoom:90%;
 	zoom:90%;
 }
+body{
+	overflow: hidden;
+}
 a{
 	color:gold;
 }
@@ -62,7 +65,7 @@ a:active, a:focus{
 .box{
 	width:100%;
 	position: absolute;
-	margin-top:1500px;
+	margin-left:1500px;
 	height:auto;
 	box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
 	border-bottom:6px solid rgba(0,0,0,0.4);
