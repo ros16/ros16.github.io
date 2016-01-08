@@ -159,7 +159,7 @@ border:3px solid rgba(0,0,0,0.6);
 }
 td{
 	padding:20px;
-	font-size:2rem;
+	font-size:1.6rem;
 }
 tr:nth-child(even){
 	background:rgba(148,255,144,0.1);

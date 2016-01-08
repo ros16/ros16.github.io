@@ -6,7 +6,7 @@
 	transition:all 0.4s linear;
 }
 html,body{
-	background-color:#04272B;
+	background-color:gold;
 	font-family:'Kelly Slab',sans-serif;
 	background-image:url(../images/s2.jpg);
 	background-size:cover;
