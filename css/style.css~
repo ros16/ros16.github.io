@@ -273,6 +273,7 @@ overflow-y:hidden;
     margin-top: 40%;
     height: 160px;
     padding: 15px;
+    border: 5px solid rgba(255,215,0,0.1);
     box-shadow: none;
 }
 .modal-header{

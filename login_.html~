@@ -9,11 +9,17 @@
 <script src="js/bootstrap.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
 <a class="login-btn"> LOGIN </a>
-<h3 class="login-desc">You will be redirected to the Kurukshetra 2016 website to fill in your profile.</h3>
+<h3 class="login-desc">You will be redirected to the Kurukshetra 2016 website to complete your profile.</h3>
 <style>
 .login-desc{
-	color:#fff;
+	color:gold;
 	font-size:3rem;
+	font-weight:bold;
+	text-align:center;
+	margin-top:20%;
+	padding:10px;
+	position:absolute;
+	opacity:0;
 }
 .login-btn{
 	font-size:4rem;
@@ -45,10 +51,13 @@ transform:translateY(10px);
 }
 </style>
 <script>
-
 $(".login-btn").click(function(){
-	$(this).css({'-webkit-transform':"scale(100)"});
+	$(this).css({'-webkit-transform':"scale(100)",'transform':"scale(100)"});
 	$(this).text("");
+	$(".login-desc").animate({'opacity':"1"});
+	setTimeout(function(){
+		window.location = "http://www.kurukshetra.org.in";
+	},1500);
 	
 });
 

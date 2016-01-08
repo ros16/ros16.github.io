@@ -9,47 +9,15 @@
 <script src="js/bootstrap.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
 <a class="login-btn"> LOGIN </a>
-<h3 class="login-desc">You will be redirected to the Kurukshetra 2016 website to fill in your profile.</h3>
-<style>
-.login-desc{
-	color:#fff;
-	font-size:3rem;
-	font-weight:bold;
-}
-.login-btn{
-	font-size:4rem;
-	margin-left:45%;
-	margin-top:20%;
-	position: absolute;
-	cursor: pointer;
-	padding:20px;
-	background:rgba(0,0,0,0.5);
-	text-shadow:0px 2px 2px rgba(25,25,25,0.6);
-	border:6px solid rgba(0,0,0,0.6);
-	box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
-	-webkit-transform-origin:50% 50%;
-	transform-origin:50% 50%;
-	-webkit-transition:all 1.3s linear;
-	-o-transition:all 1.3s linear;
-	-moz-transition:all 1.3s linear;
-	transition:all 1.3s linear;
-
-}
-.login-btn:hover{
-	background:rgba(0,0,0,0.8);
-	box-shadow: 0px 15px 20px rgba(0,0,0,0.5);
-	text-shadow:0px 1px 1px rgba(255,255,255,0.4);
-}
-.login-btn:active{
--webkit-transform:translateY(10px);
-transform:translateY(10px);
-}
-</style>
+<h3 class="login-desc">You will be redirected to the Kurukshetra 2016 website to complete your profile.</h3>
 <script>
-
 $(".login-btn").click(function(){
-	$(this).css({'-webkit-transform':"scale(100)"});
+	$(this).css({'-webkit-transform':"scale(100)",'transform':"scale(100)"});
 	$(this).text("");
+	$(".login-desc").animate({'opacity':"1"});
+	setTimeout(function(){
+		window.location = "http://www.kurukshetra.org.in";
+	},1500);
 	
 });
 
