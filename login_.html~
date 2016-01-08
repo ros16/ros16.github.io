@@ -14,7 +14,6 @@
 .login-desc{
 	color:#fff;
 	font-size:3rem;
-	font-weight:bold;
 }
 .login-btn{
 	font-size:4rem;
